@@ -3,23 +3,23 @@ requires = ["setuptools>=61.0", "wheel", "build"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "libgenerica"          
-version = "0.1.0"
-description = "Biblioteca com CRUD genérico, models e utilitários usados no projeto Atividade Fast Banco."
+name = "libgenerica"
+version = "0.1.1"
+description = "Biblioteca com CRUD genérico, models e utilitários"
 readme = "README.md"
 requires-python = ">=3.10"
 
 authors = [
-  { name = "Rafael" },
+  { name = "Rafael" }
 ]
 
 dependencies = [
   "fastapi",
   "sqlmodel",
   "sqlalchemy",
-  "uvicorn",
+  "uvicorn"
 ]
 
 [tool.setuptools.packages.find]
-where = ["libgenerica"]
+where = ["."]
 include = ["libgenerica", "libgenerica.*"]
