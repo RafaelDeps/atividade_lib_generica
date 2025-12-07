@@ -1,0 +1,70 @@
+# ==========================
+#   Python / Build / Venv
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# cache de ferramentas
+.pytest_cache/
+.mypy_cache/
+.cache/
+.coverage
+htmlcov/
+
+# ==========================
+#   Editor / IDE Files
+# ==========================
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ==========================
+#   Sistema Operacional
+# ==========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==========================
+#   Outros
+# ==========================
+# bancos de dados locais ou arquivos gerados
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+*.log
+
+# arquivos temporários
+*.tmp
+*.bak
+*.old
+
